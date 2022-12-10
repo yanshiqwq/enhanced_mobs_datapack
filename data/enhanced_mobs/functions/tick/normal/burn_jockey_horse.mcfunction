@@ -1,0 +1,2 @@
+execute as @e[tag=!enhanced_mobs.player_ridden,type=#enhanced_mobs:jockey_horse] unless predicate enhanced_mobs:is_dark run effect clear @s fire_resistance
+execute as @e[tag=!enhanced_mobs.player_ridden,type=#enhanced_mobs:jockey_horse] unless predicate enhanced_mobs:is_dark run data modify entity @s Fire set value 160s

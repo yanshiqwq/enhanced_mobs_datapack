@@ -1,0 +1,11 @@
+summon zombie ~ ~ ~ {Glowing:1,Tags:["group_zombies"],ActiveEffects:[{Id:28,Amplifier:0,Duration:2147483647}]}
+summon zombie ~ ~ ~ {Glowing:1,Tags:["group_zombies"],ActiveEffects:[{Id:28,Amplifier:0,Duration:2147483647}]}
+summon zombie ~ ~ ~ {Glowing:1,Tags:["group_zombies"],ActiveEffects:[{Id:28,Amplifier:0,Duration:2147483647}]}
+summon zombie ~ ~ ~ {Glowing:1,Tags:["group_zombies"],ActiveEffects:[{Id:28,Amplifier:0,Duration:2147483647}]}
+summon zombie ~ ~ ~ {Glowing:1,Tags:["group_zombies"],ActiveEffects:[{Id:28,Amplifier:0,Duration:2147483647}]}
+summon zombie ~ ~ ~ {Glowing:1,Tags:["group_zombies"],ActiveEffects:[{Id:28,Amplifier:0,Duration:2147483647}]}
+summon zombie ~ ~ ~ {Glowing:1,Tags:["group_zombies"],ActiveEffects:[{Id:28,Amplifier:0,Duration:2147483647}]}
+summon zombie ~ ~ ~ {Glowing:1,Tags:["group_zombies"],ActiveEffects:[{Id:28,Amplifier:0,Duration:2147483647}]}
+summon zombie ~ ~ ~ {Glowing:1,Tags:["group_zombies"],ActiveEffects:[{Id:28,Amplifier:0,Duration:2147483647}]}
+summon zombie ~ ~ ~ {Glowing:1,Tags:["group_zombies"],ActiveEffects:[{Id:28,Amplifier:0,Duration:2147483647}]}
+summon skeleton ~ ~ ~ {Glowing:1,Tags:["group_zombies","strength"],ActiveEffects:[{Id:28,Amplifier:0,Duration:2147483647}],Attributes:[{Base:32,Name:"minecraft:generic.follow_range"}],LeftHanded:1,HandItems:[{id:"minecraft:bow",Count:1},{id:"minecraft:shield",Count:1}],ArmorItems:[{id:"minecraft:golden_boots",Count:1,tag:{Enchantments:[{lvl:1,id:"minecraft:protection"}]}},{id:"minecraft:golden_leggings",Count:1,tag:{Enchantments:[{lvl:1,id:"minecraft:protection"}]}},{id:"minecraft:golden_chestplate",Count:1b,tag:{Enchantments:[{lvl:1,id:"minecraft:protection"}]}},{id:"minecraft:golden_helmet",Count:1b,tag:{Enchantments:[{lvl:1,id:"minecraft:protection"}]}}]}

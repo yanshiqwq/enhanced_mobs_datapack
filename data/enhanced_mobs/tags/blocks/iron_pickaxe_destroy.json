@@ -1,0 +1,31 @@
+{
+    "values": [
+        "#enhanced_mobs:stone_pickaxe_destroy",
+        "#base_stone_nether",
+        "#beds",
+        "#flower_pots",
+        "#rails",
+        "redstone_ore",
+        "lapis_ore",
+        "#stone_bricks",
+        "stone",
+        "stone_brick_slab",
+        "stone_brick_stairs",
+        "stone_brick_wall",
+        "sandstone_wall",
+        "sandstone",
+        "sandstone_stairs",
+        "sandstone_slab",
+        "cut_sandstone",
+        "cut_sandstone_slab",
+        "cactus",
+        "cut_red_sandstone",
+        "red_sand",
+        "red_sandstone_slab",
+        "red_sandstone_stairs",
+        "red_sandstone_wall",
+        "smooth_red_sandstone",
+        "smooth_red_sandstone_slab",
+        "smooth_red_sandstone_stairs"
+    ]
+}

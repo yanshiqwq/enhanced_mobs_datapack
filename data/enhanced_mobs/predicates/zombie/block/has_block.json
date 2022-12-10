@@ -1,0 +1,21 @@
+{
+    "condition": "alternative",
+    "terms": [
+        {
+            "condition": "reference",
+            "name": "enhanced_mobs:zombie/block/cobblestone"
+        },{
+            "condition": "reference",
+            "name": "enhanced_mobs:zombie/block/dirt"
+        },{
+            "condition": "reference",
+            "name": "enhanced_mobs:zombie/block/granite"
+        },{
+            "condition": "reference",
+            "name": "enhanced_mobs:zombie/block/diorite"
+        },{
+            "condition": "reference",
+            "name": "enhanced_mobs:zombie/block/andesite"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+	"type": "minecraft:generic",
+	"pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "name": "minecraft:shield"
+                },{
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_randomly"
+                        }
+                    ],
+                    "name": "minecraft:shield"
+                },{
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:totem_of_undying"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.15
+                }
+            ]
+        }
+	]
+}

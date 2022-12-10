@@ -1,0 +1,19 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "nbt": "{Health:1.0f}",
+        "effects": {
+            "absorption": {
+                "ambient": false,
+                "amplifier": 1,
+                "duration": 100
+            },
+            "fire_resistance": {
+                "ambient": false,
+                "amplifier": 0,
+                "duration": 800
+            }
+        }
+    }
+}

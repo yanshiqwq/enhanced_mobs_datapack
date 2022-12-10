@@ -1,0 +1,133 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_helmet",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "max": 0.99,
+                                "min": 0.1
+                            }
+                        },{
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "generic.armor",
+                                    "id": "08997207-eded-4a3e-986c-02d37878b968",
+                                    "operation": "addition",
+                                    "slot": "head",
+                                    "name": "Random spawn bonus",
+                                    "amount": {
+                                        "max": 3,
+                                        "min": 0
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_chestplate",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "max": 0.99,
+                                "min": 0.1
+                            }
+                        },{
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "generic.armor",
+                                    "id": "08997207-eded-4a3e-986c-02d37878b968",
+                                    "operation": "addition",
+                                    "slot": "chest",
+                                    "name": "Random spawn bonus",
+                                    "amount": {
+                                        "max": 8,
+                                        "min": 0
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_leggings",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "max": 0.99,
+                                "min": 0.1
+                            }
+                        },{
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "generic.armor",
+                                    "id": "08997207-eded-4a3e-986c-02d37878b968",
+                                    "operation": "addition",
+                                    "slot": "legs",
+                                    "name": "Random spawn bonus",
+                                    "amount": {
+                                        "max": 6,
+                                        "min": 0
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_boots",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "max": 0.99,
+                                "min": 0.1
+                            }
+                        },{
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "generic.armor",
+                                    "id": "08997207-eded-4a3e-986c-02d37878b968",
+                                    "operation": "addition",
+                                    "slot": "feet",
+                                    "name": "Random spawn bonus",
+                                    "amount": {
+                                        "max": 3,
+                                        "min": 0
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

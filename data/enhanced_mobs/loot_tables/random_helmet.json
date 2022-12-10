@@ -1,0 +1,60 @@
+{
+	"type": "minecraft:generic",
+	"pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 9,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "min": 1,
+                                "max": 7
+                            }
+                        }
+                    ],
+                    "name": "minecraft:leather_helmet"
+                },{
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "min": 7,
+                                "max": 13
+                            }
+                        }
+                    ],
+                    "name": "minecraft:golden_helmet"
+                },{
+                    "type": "minecraft:item",
+                    "weight": 4,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "min": 25,
+                                "max": 30
+                            }
+                        }
+                    ],
+                    "name": "minecraft:iron_helmet"
+                },{
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": 30
+                        }
+                    ],
+                    "name": "minecraft:diamond_helmet"
+                }
+            ]
+        }
+	]
+}

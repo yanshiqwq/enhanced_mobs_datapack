@@ -1,0 +1,6 @@
+execute as @a[predicate=enhanced_mobs:in_desert,gamemode=!creative,gamemode=!spectator] at @s if predicate enhanced_mobs:is_dark if predicate enhanced_mobs:sneak_raid/spawn_chance_husk run function enhanced_mobs:tick/events/sneak_raid/husk_spawn
+execute as @a[gamemode=!creative,gamemode=!spectator] at @s if block ~ ~ ~ water if predicate enhanced_mobs:is_dark if predicate enhanced_mobs:sneak_raid/spawn_chance_drowned run function enhanced_mobs:tick/events/sneak_raid/drowned_spawn
+execute as @a[gamemode=!creative,gamemode=!spectator] at @s if predicate enhanced_mobs:is_dark if predicate enhanced_mobs:sneak_raid/spawn_chance_zombie run function enhanced_mobs:tick/events/sneak_raid/zombie_spawn
+execute as @e[tag=enhanced_mobs.sneak_raid.temp] at @s unless block ~ ~ ~ #enhanced_mobs:stop_coming_out run tp @s ~ ~0.03 ~ ~ ~
+execute as @e[tag=enhanced_mobs.sneak_raid.temp] at @s unless block ~ ~ ~ #enhanced_mobs:stop_coming_out run effect give @s resistance 1 4
+execute as @e[tag=enhanced_mobs.sneak_raid.temp] at @s if block ~ ~ ~ #enhanced_mobs:stop_coming_out run tag @s remove enhanced_mobs.sneak_raid.temp

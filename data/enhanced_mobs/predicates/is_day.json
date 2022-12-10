@@ -1,0 +1,11 @@
+{
+    "condition": "inverted",
+    "term": {
+        "condition": "time_check",
+        "value": {
+            "max": 23450,
+            "min": 12567
+        }
+    }
+}
+    

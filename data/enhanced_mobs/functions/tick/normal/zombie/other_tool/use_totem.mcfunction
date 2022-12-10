@@ -1,0 +1,1 @@
+data modify entity @s ActiveEffects append value {Ambient:0,Id:10,Amplifier:4,Duration:20,HiddenEffect:{Ambient:0,Id:10,Amplifier:3,Duration:900}}

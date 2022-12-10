@@ -1,0 +1,9 @@
+{
+    "condition": "location_check",
+    "offsetY": 2,
+    "predicate": {
+        "block": {
+            "tag": "enhanced_mobs:zombie_placeable"
+        }
+    }
+}

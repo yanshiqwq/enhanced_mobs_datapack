@@ -1,0 +1,350 @@
+{
+	"type": "generic",
+	"pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "name": "helmet",
+                    "type": "alternatives",
+                    "children": [
+                        {
+                            "type": "group",
+                            "children": [
+                                {
+                                    "type": "minecraft:item",
+                                    "weight": 15,
+                                    "name": "minecraft:leather_helmet"
+                                },{
+                                    "type": "minecraft:item",
+                                    "weight": 10,
+                                    "name": "minecraft:golden_helmet"
+                                },{
+                                    "type": "minecraft:item",
+                                    "weight": 4,
+                                    "name": "minecraft:iron_helmet"
+                                },{
+                                    "type": "minecraft:item",
+                                    "weight": 1,
+                                    "name": "minecraft:diamond_helmet"
+                                }
+                            ]
+                        },{
+                            "type": "group",
+                            "children": [
+                                {
+                                    "type": "minecraft:item",
+                                    "weight": 15,
+                                    "functions": [
+                                        {
+                                            "function": "minecraft:enchant_with_levels",
+                                            "levels": {
+                                                "min": 1,
+                                                "max": 7
+                                            }
+                                        }
+                                    ],
+                                    "name": "minecraft:leather_helmet"
+                                },{
+                                    "type": "minecraft:item",
+                                    "weight": 10,
+                                    "functions": [
+                                        {
+                                            "function": "minecraft:enchant_with_levels",
+                                            "levels": {
+                                                "min": 7,
+                                                "max": 13
+                                            }
+                                        }
+                                    ],
+                                    "name": "minecraft:golden_helmet"
+                                },{
+                                    "type": "minecraft:item",
+                                    "weight": 4,
+                                    "functions": [
+                                        {
+                                            "function": "minecraft:enchant_with_levels",
+                                            "levels": {
+                                                "min": 25,
+                                                "max": 30
+                                            }
+                                        }
+                                    ],
+                                    "name": "minecraft:iron_helmet"
+                                },{
+                                    "type": "minecraft:item",
+                                    "weight": 1,
+                                    "functions": [
+                                        {
+                                            "function": "minecraft:enchant_with_levels",
+                                            "levels": 30
+                                        }
+                                    ],
+                                    "name": "minecraft:diamond_helmet"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "name": "chestplate",
+                    "type": "alternatives",
+                    "children": [
+                        {
+                            "type": "group",
+                            "children": [
+                                {
+                                    "type": "minecraft:item",
+                                    "weight": 15,
+                                    "name": "minecraft:leather_chestplate"
+                                },{
+                                    "type": "minecraft:item",
+                                    "weight": 10,
+                                    "name": "minecraft:golden_chestplate"
+                                },{
+                                    "type": "minecraft:item",
+                                    "weight": 4,
+                                    "name": "minecraft:iron_chestplate"
+                                },{
+                                    "type": "minecraft:item",
+                                    "weight": 1,
+                                    "name": "minecraft:diamond_chestplate"
+                                }
+                            ]
+                        },{
+                            "type": "group",
+                            "children": [
+                                {
+                                    "type": "minecraft:item",
+                                    "weight": 15,
+                                    "functions": [
+                                        {
+                                            "function": "minecraft:enchant_with_levels",
+                                            "levels": {
+                                                "min": 1,
+                                                "max": 7
+                                            }
+                                        }
+                                    ],
+                                    "name": "minecraft:leather_chestplate"
+                                },{
+                                    "type": "minecraft:item",
+                                    "weight": 10,
+                                    "functions": [
+                                        {
+                                            "function": "minecraft:enchant_with_levels",
+                                            "levels": {
+                                                "min": 7,
+                                                "max": 13
+                                            }
+                                        }
+                                    ],
+                                    "name": "minecraft:golden_chestplate"
+                                },{
+                                    "type": "minecraft:item",
+                                    "weight": 4,
+                                    "functions": [
+                                        {
+                                            "function": "minecraft:enchant_with_levels",
+                                            "levels": {
+                                                "min": 25,
+                                                "max": 30
+                                            }
+                                        }
+                                    ],
+                                    "name": "minecraft:iron_chestplate"
+                                },{
+                                    "type": "minecraft:item",
+                                    "weight": 1,
+                                    "functions": [
+                                        {
+                                            "function": "minecraft:enchant_with_levels",
+                                            "levels": 30
+                                        }
+                                    ],
+                                    "name": "minecraft:diamond_chestplate"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "name": "leggings",
+                    "type": "alternatives",
+                    "children": [
+                        {
+                            "type": "group",
+                            "children": [
+                                {
+                                    "type": "minecraft:item",
+                                    "weight": 15,
+                                    "name": "minecraft:leather_leggings"
+                                },{
+                                    "type": "minecraft:item",
+                                    "weight": 10,
+                                    "name": "minecraft:golden_leggings"
+                                },{
+                                    "type": "minecraft:item",
+                                    "weight": 4,
+                                    "name": "minecraft:iron_leggings"
+                                },{
+                                    "type": "minecraft:item",
+                                    "weight": 1,
+                                    "name": "minecraft:diamond_leggings"
+                                }
+                            ]
+                        },{
+                            "type": "alternatives",
+                            "children": [
+                                {
+                                    "type": "minecraft:item",
+                                    "weight": 15,
+                                    "functions": [
+                                        {
+                                            "function": "minecraft:enchant_with_levels",
+                                            "levels": {
+                                                "min": 1,
+                                                "max": 7
+                                            }
+                                        }
+                                    ],
+                                    "name": "minecraft:leather_leggings"
+                                },{
+                                    "type": "minecraft:item",
+                                    "weight": 10,
+                                    "functions": [
+                                        {
+                                            "function": "minecraft:enchant_with_levels",
+                                            "levels": {
+                                                "min": 7,
+                                                "max": 13
+                                            }
+                                        }
+                                    ],
+                                    "name": "minecraft:golden_leggings"
+                                },{
+                                    "type": "minecraft:item",
+                                    "weight": 4,
+                                    "functions": [
+                                        {
+                                            "function": "minecraft:enchant_with_levels",
+                                            "levels": {
+                                                "min": 25,
+                                                "max": 30
+                                            }
+                                        }
+                                    ],
+                                    "name": "minecraft:iron_leggings"
+                                },{
+                                    "type": "minecraft:item",
+                                    "weight": 1,
+                                    "functions": [
+                                        {
+                                            "function": "minecraft:enchant_with_levels",
+                                            "levels": 30
+                                        }
+                                    ],
+                                    "name": "minecraft:diamond_leggings"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "name": "boots",
+                    "type": "alternatives",
+                    "children": [
+                        {
+                            "type": "group",
+                            "children": [
+                                {
+                                    "type": "minecraft:item",
+                                    "weight": 15,
+                                    "name": "minecraft:leather_boots"
+                                },{
+                                    "type": "minecraft:item",
+                                    "weight": 10,
+                                    "name": "minecraft:golden_boots"
+                                },{
+                                    "type": "minecraft:item",
+                                    "weight": 4,
+                                    "name": "minecraft:iron_boots"
+                                },{
+                                    "type": "minecraft:item",
+                                    "weight": 1,
+                                    "name": "minecraft:diamond_boots"
+                                }
+                            ]
+                        },{
+                            "type": "group",
+                            "children": [
+                                {
+                                    "type": "minecraft:item",
+                                    "weight": 15,
+                                    "functions": [
+                                        {
+                                            "function": "minecraft:enchant_with_levels",
+                                            "levels": {
+                                                "min": 1,
+                                                "max": 7
+                                            }
+                                        }
+                                    ],
+                                    "name": "minecraft:leather_boots"
+                                },{
+                                    "type": "minecraft:item",
+                                    "weight": 10,
+                                    "functions": [
+                                        {
+                                            "function": "minecraft:enchant_with_levels",
+                                            "levels": {
+                                                "min": 7,
+                                                "max": 13
+                                            }
+                                        }
+                                    ],
+                                    "name": "minecraft:golden_boots"
+                                },{
+                                    "type": "minecraft:item",
+                                    "weight": 4,
+                                    "functions": [
+                                        {
+                                            "function": "minecraft:enchant_with_levels",
+                                            "levels": {
+                                                "min": 25,
+                                                "max": 30
+                                            }
+                                        }
+                                    ],
+                                    "name": "minecraft:iron_boots"
+                                },{
+                                    "type": "minecraft:item",
+                                    "weight": 1,
+                                    "functions": [
+                                        {
+                                            "function": "minecraft:enchant_with_levels",
+                                            "levels": 30
+                                        }
+                                    ],
+                                    "name": "minecraft:diamond_boots"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+	]
+}

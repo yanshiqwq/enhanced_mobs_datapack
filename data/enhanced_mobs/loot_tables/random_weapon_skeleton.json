@@ -1,0 +1,115 @@
+{
+	"type": "minecraft:generic",
+	"pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 9,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "min": 7,
+                                "max": 13
+                            }
+                        }
+                    ],
+                    "name": "minecraft:stone_shovel"
+                },{
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "min": 25,
+                                "max": 30
+                            }
+                        }
+                    ],
+                    "name": "minecraft:iron_shovel"
+                },{
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "min": 7,
+                                "max": 13
+                            }
+                        }
+                    ],
+                    "name": "minecraft:stone_sword"
+                },{
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "min": 25,
+                                "max": 30
+                            }
+                        }
+                    ],
+                    "name": "minecraft:iron_sword"
+                },{
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": 30
+                        }
+                    ],
+                    "name": "minecraft:diamond_sword"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.1
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_randomly"
+                        }
+                    ],
+                    "name": "minecraft:bow"
+                },{
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:enchant_with_levels",
+                            "levels": {
+                                "min": 25,
+                                "max": 30
+                            }
+                        }
+                    ],
+                    "name": "minecraft:bow"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:weather_check",
+                    "thundering": true
+                },{
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.2
+                }
+            ]
+        }
+	]
+}

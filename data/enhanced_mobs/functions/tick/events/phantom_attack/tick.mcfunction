@@ -1,0 +1,7 @@
+execute as @e[tag=enhanced_mobs.phantom_attack] if predicate enhanced_mobs:phantom_attack/shoot if block ~ ~-1 ~ air at @s run summon shulker_bullet
+execute as @e[tag=enhanced_mobs.phantom_attack] if predicate enhanced_mobs:phantom_attack/shoot if block ~ ~-1 ~ air at @s run summon spectral_arrow ~ ~ ~ {Tags:["enhanced_mobs.temp_arrow"]}
+execute as @e[tag=enhanced_mobs.phantom_attack] if predicate enhanced_mobs:phantom_attack/shoot if block ~ ~-1 ~ air at @s run summon arrow ~ ~ ~ {Tags:["enhanced_mobs.temp_arrow"],CustomPotionEffects:[{Id:25,Duration:500,Amplifier:1}]}
+execute as @e[tag=enhanced_mobs.phantom_attack] if predicate enhanced_mobs:phantom_attack/shoot if block ~ ~-1 ~ air at @s run summon arrow ~ ~ ~ {Tags:["enhanced_mobs.temp_arrow"],CustomPotionEffects:[{Id:7,Amplifier:0}]}
+execute as @e[tag=enhanced_mobs.phantom_attack] if predicate enhanced_mobs:phantom_attack/shoot if block ~ ~-1 ~ air at @s run summon arrow ~ ~ ~ {Tags:["enhanced_mobs.temp_arrow"],CustomPotionEffects:[{Id:7,Amplifier:1}]}
+kill @e[type=#arrows,nbt={inGround:1b}]
+execute as @r[gamemode=!creative,gamemode=!spectator] at @s if predicate enhanced_mobs:phantom_attack/spawn_chance unless predicate enhanced_mobs:is_day if entity @s[y=60,dy=196] run function enhanced_mobs:tick/events/phantom_attack/spawn

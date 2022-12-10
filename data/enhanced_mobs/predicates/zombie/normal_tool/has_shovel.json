@@ -1,0 +1,16 @@
+{
+    "condition": "alternative",
+    "terms": [
+        {
+            "condition": "reference",
+            "name": "enhanced_mobs:zombie/normal_tool/stone_shovel"
+        },{
+            "condition": "reference",
+            "name": "enhanced_mobs:zombie/normal_tool/iron_shovel"
+        },
+        {
+            "condition": "reference",
+            "name": "enhanced_mobs:zombie/normal_tool/diamond_shovel"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "targeted_entity": {
+            "type": "#enhanced_mobs:zombie_target",
+            "distance": {
+                "absolute": {
+                    "min": 6,
+                    "max": 24
+                },
+                "horizontal": {
+                    "max": 8
+                }
+            }
+        }
+    }
+}

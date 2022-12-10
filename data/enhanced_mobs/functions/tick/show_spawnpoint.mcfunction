@@ -1,0 +1,1 @@
+execute if predicate enhanced_mobs:effect run particle minecraft:enchant ~0.5 0 ~0.5 0.24 255 0.24 0.1 65536 force

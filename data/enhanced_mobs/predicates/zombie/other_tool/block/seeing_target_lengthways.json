@@ -1,0 +1,25 @@
+{
+    "condition": "alternative",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "targeted_entity": {
+                    "type": "#enhanced_mobs:zombie_target",
+                    "distance": {
+                        "y": {
+                            "min": 0.5
+                        },
+                        "horizontal": {
+                            "max": 2.5
+                        }
+                    },
+                    "flags": {
+                        "is_sprinting": false
+                    }
+                }
+            }
+        }
+    ]
+}

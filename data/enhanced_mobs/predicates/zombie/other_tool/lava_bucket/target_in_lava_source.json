@@ -1,0 +1,16 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "targeted_entity": {
+            "location": {
+                "block": {
+                    "block": "lava",
+                    "state": {
+                        "level": 0
+                    }
+                }
+            }
+        }
+    }
+}

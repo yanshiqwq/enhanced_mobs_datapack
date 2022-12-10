@@ -1,0 +1,1 @@
+data merge entity @e[type=item,nbt={Item:{tag:{Tags:["strength_skeleton_bow"]}}},limit=1,sort=random] {Item:{tag:{Tags:[],Enchantments:[{id:"power",lvl:3},{id:"punch",lvl:1}]}}}

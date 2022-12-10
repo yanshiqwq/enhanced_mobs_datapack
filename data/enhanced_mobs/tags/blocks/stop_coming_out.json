@@ -1,0 +1,15 @@
+{
+    "values": [
+        "air",
+        "cave_air",
+        "void_air",
+        "bamboo",
+        "bamboo_sapling",
+        "#saplings",
+        "vine",
+        "grass",
+        "tall_grass",
+        "seagrass",
+        "#flowers"
+    ]
+}

@@ -1,0 +1,3 @@
+execute if predicate enhanced_mobs:zombie/normal_tool/stone_shovel if predicate enhanced_mobs:zombie/normal_tool/stone_shovel_chance run function enhanced_mobs:tick/normal/zombie/normal_tool/shovel/stone_shovel
+execute if predicate enhanced_mobs:zombie/normal_tool/iron_shovel if predicate enhanced_mobs:zombie/normal_tool/iron_shovel_chance run function enhanced_mobs:tick/normal/zombie/normal_tool/shovel/iron_shovel
+execute if predicate enhanced_mobs:zombie/normal_tool/diamond_shovel if predicate enhanced_mobs:zombie/normal_tool/diamond_shovel_chance run function enhanced_mobs:tick/normal/zombie/normal_tool/shovel/diamond_shovel

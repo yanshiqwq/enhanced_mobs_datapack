@@ -1,0 +1,99 @@
+{
+    "type": "entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:granite",
+                    "weight": 10,
+                    "conditions": [
+                        {
+                            "condition": "location_check",
+                            "predicate": {
+                                "position": {
+                                    "y": {
+                                        "max": 64,
+                                        "min": 0
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },{
+                    "type": "item",
+                    "name": "minecraft:diorite",
+                    "weight": 10,
+                    "conditions": [
+                        {
+                            "condition": "location_check",
+                            "predicate": {
+                                "position": {
+                                    "y": {
+                                        "max": 64,
+                                        "min": 0
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },{
+                    "type": "item",
+                    "name": "minecraft:andesite",
+                    "weight": 10,
+                    "conditions": [
+                        {
+                            "condition": "location_check",
+                            "predicate": {
+                                "position": {
+                                    "y": {
+                                        "max": 64,
+                                        "min": 0
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },{
+                    "type": "item",
+                    "name": "minecraft:cobblestone",
+                    "weight": 50
+                },{
+                    "type": "item",
+                    "name": "minecraft:dirt",
+                    "weight": 60,
+                    "conditions": [
+                        {
+                            "condition": "location_check",
+                            "predicate": {
+                                "position": {
+                                    "y": {
+                                        "max": 256,
+                                        "min": 64
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },{
+                    "type": "item",
+                    "name": "minecraft:tnt",
+                    "weight": 5
+                },{
+                    "type": "item",
+                    "name": "minecraft:lava_bucket",
+                    "weight": 3
+                },{
+                    "type": "item",
+                    "name": "minecraft:ladder",
+                    "weight": 3
+                },{
+                    "type": "item",
+                    "name": "minecraft:ender_pearl",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,3 @@
+execute if predicate enhanced_mobs:zombie/normal_tool/stone_pickaxe if predicate enhanced_mobs:zombie/normal_tool/stone_pickaxe_chance run function enhanced_mobs:tick/normal/zombie/normal_tool/pickaxe/stone_pickaxe
+execute if predicate enhanced_mobs:zombie/normal_tool/iron_pickaxe if predicate enhanced_mobs:zombie/normal_tool/iron_pickaxe_chance run function enhanced_mobs:tick/normal/zombie/normal_tool/pickaxe/iron_pickaxe
+execute if predicate enhanced_mobs:zombie/normal_tool/diamond_pickaxe if predicate enhanced_mobs:zombie/normal_tool/diamond_pickaxe_chance run function enhanced_mobs:tick/normal/zombie/normal_tool/pickaxe/diamond_pickaxe

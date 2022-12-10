@@ -1,0 +1,6 @@
+execute positioned ~ -2 ~ run tag @e[tag=enhanced_mobs.undead_attack,distance=..5,limit=1,sort=random] add enhanced_mobs.undead_attack_leader
+execute positioned ~ -2 ~ as @e[tag=enhanced_mobs.undead_attack_leader,distance=..5] if predicate enhanced_mobs:random run tag @s add strength
+execute positioned ~ -2 ~ as @e[tag=enhanced_mobs.undead_attack_leader,tag=!strength,distance=..5] run tag @s add enhance
+execute positioned ~ -2 ~ as @e[tag=enhanced_mobs.undead_attack_leader,type=#enhanced_mobs:zombie,distance=..5] run data merge entity @s {CanJoinRaid:1,PatrolLeader:1,AbsorptionAmount:48,ArmorItems:[{},{},{},{id:"black_banner",Count:1,tag:{BlockEntityTag:{Patterns:[{Pattern:"sku",Color:0}]},display:{Name:'{"italic":false,"color":"gold","text":"骷髅旗帜"}'},Enchantments:[{id:"mending",lvl:1}],HideFlags:1}}]}
+execute positioned ~ -2 ~ as @e[tag=enhanced_mobs.undead_attack_leader,type=#enhanced_mobs:zombie,distance=..5] run loot replace entity @s armor.head loot enhanced_mobs:random_armor
+execute positioned ~ -2 ~ as @e[tag=enhanced_mobs.undead_attack_leader,type=#enhanced_mobs:zombie,distance=..5] run loot replace entity @s weapon.mainhand loot enhanced_mobs:random_weapon_leader

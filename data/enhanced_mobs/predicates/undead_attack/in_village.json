@@ -1,0 +1,36 @@
+{
+    "condition": "alternative",
+    "terms": [
+        {
+            "condition": "alternative",
+            "terms": [
+                {
+                    "condition": "location_check",
+                    "predicate": {
+                        "structure": "village_desert"
+                    }
+                },{
+                    "condition": "location_check",
+                    "predicate": {
+                        "structure": "village_plains"
+                    }
+                },{
+                    "condition": "location_check",
+                    "predicate": {
+                        "structure": "village_savanna"
+                    }
+                },{
+                    "condition": "location_check",
+                    "predicate": {
+                        "structure": "village_snowy"
+                    }
+                },{
+                    "condition": "location_check",
+                    "predicate": {
+                        "structure": "village_taiga"
+                    }
+                }
+            ]
+        }
+    ]
+}    

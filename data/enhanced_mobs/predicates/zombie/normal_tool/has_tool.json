@@ -1,0 +1,12 @@
+{
+    "condition": "alternative",
+    "terms": [
+        {
+            "condition": "reference",
+            "name": "enhanced_mobs:zombie/normal_tool/has_pickaxe"
+        },{
+            "condition": "reference",
+            "name": "enhanced_mobs:zombie/normal_tool/has_shovel"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "offhand": {
+                "item": "minecraft:iron_shovel",
+                "count": 1
+            }
+        }
+    }
+}

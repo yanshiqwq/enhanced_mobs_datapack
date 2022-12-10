@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "values": [
+        "#enhanced_mobs:zombie",
+        "#enhanced_mobs:skeleton",
+        "minecraft:wither_skeleton",
+        "minecraft:creeper",
+        "minecraft:ghast",
+        "#enhanced_mobs:spider",
+        "#enhanced_mobs:mite"
+    ]
+}

@@ -1,0 +1,131 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:wooden_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "max": 0.99,
+                                "min": 0.8
+                            }
+                        },{
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "id": "ff22e5bb-b658-464e-b080-a31b4688196d",
+                                    "attribute": "generic.attack_damage",
+                                    "amount": {
+                                        "max": 7,
+                                        "min": 4
+                                    },
+                                    "operation": "addition",
+                                    "slot": "mainhand",
+                                    "name": "Random spawn bonus"
+                                },{
+                                    "id": "ff22e5bb-b658-464e-b080-a31b4688196d",
+                                    "attribute": "generic.armor",
+                                    "amount": {
+                                        "max": 4,
+                                        "min": 0
+                                    },
+                                    "operation": "addition",
+                                    "slot": "mainhand",
+                                    "name": "Random spawn bonus"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:wooden_pickaxe",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "max": 0.99,
+                                "min": 0.8
+                            }
+                        },{
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "id": "ff22e5bb-b658-464e-b080-a31b4688196d",
+                                    "attribute": "generic.attack_speed",
+                                    "amount": {
+                                        "max": 0.15,
+                                        "min": 0
+                                    },
+                                    "operation": "multiply_base",
+                                    "slot": "mainhand",
+                                    "name": "Random spawn bonus"
+                                },{
+                                    "id": "ff22e5bb-b658-464e-b080-a31b4688196d",
+                                    "attribute": "generic.armor",
+                                    "amount": {
+                                        "max": 4,
+                                        "min": 0
+                                    },
+                                    "operation": "addition",
+                                    "slot": "mainhand",
+                                    "name": "Random spawn bonus"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },{
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:shield",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "max": 0.8,
+                                "min": 0.1
+                            }
+                        },{
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "id": "ff22e5bb-b658-464e-b080-a31b4688196d",
+                                    "attribute": "generic.movement_speed",
+                                    "amount": {
+                                        "max": 0.3,
+                                        "min": 0
+                                    },
+                                    "operation": "multiply_base",
+                                    "slot": "offhand",
+                                    "name": "Random spawn bonus"
+                                },{
+                                    "id": "ff22e5bb-b658-464e-b080-a31b4688196d",
+                                    "attribute": "generic.armor",
+                                    "amount": {
+                                        "max": 6,
+                                        "min": 0
+                                    },
+                                    "operation": "addition",
+                                    "slot": "offhand",
+                                    "name": "Random spawn bonus"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

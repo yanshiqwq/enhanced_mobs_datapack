@@ -1,0 +1,2 @@
+execute if predicate enhanced_mobs:zombie/other_tool/block/seeing_target_lengthways if predicate enhanced_mobs:zombie/other_tool/block/place_lengthways_chance run function enhanced_mobs:tick/normal/zombie/other_tool/place_block_lengthways
+execute if predicate enhanced_mobs:zombie/other_tool/block/seeing_target_sideways positioned ^ ^ ^1 if predicate enhanced_mobs:zombie/other_tool/block/place_sideways_chance run function enhanced_mobs:tick/normal//zombie/other_tool/place_block_sideways

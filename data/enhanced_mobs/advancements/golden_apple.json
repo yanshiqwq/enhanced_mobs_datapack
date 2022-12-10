@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "requirement":{
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:golden_apple"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "enhanced_mobs:tick/events/golden_apple"
+    }
+}

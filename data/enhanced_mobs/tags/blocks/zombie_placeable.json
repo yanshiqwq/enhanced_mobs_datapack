@@ -1,0 +1,24 @@
+{
+    "replace": false,
+    "values": [
+        "torch",
+        "wall_torch",
+        "soul_torch",
+        "soul_wall_torch",
+        "redstone_torch",
+        "redstone_wall_torch",
+        "#fire",
+        "#tall_flowers",
+        "#flowers",
+        "#carpets",
+        "grass",
+        "tall_grass",
+        "dead_bush",
+        "air",
+        "cave_air",
+        "void_air",
+        "snow",
+        "water",
+        "lava"
+    ]
+}

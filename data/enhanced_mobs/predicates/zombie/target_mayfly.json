@@ -1,0 +1,9 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "targeted_entity": {
+            "nbt": "{abilities:{mayfly:1b}}"
+        }
+    }
+}
