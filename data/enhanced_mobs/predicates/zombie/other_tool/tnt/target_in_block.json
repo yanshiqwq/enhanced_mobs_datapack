@@ -1,0 +1,36 @@
+{
+    "condition": "alternative",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "targeted_entity": {
+                    "location": {
+                        "block": {
+                            "tag": "enhanced_mobs:zombie_placeable"
+                        }
+                    }
+                }
+            }
+        },{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "targeted_entity": {
+                    "location": {
+                        "block": {
+                            "blocks": [
+                                "#doors",
+                                "#climbable",
+                                "#fence_gates",
+                                "#flower_pots",
+                                "#pressure_plates"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

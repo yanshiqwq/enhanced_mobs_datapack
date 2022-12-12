@@ -1,6 +1,6 @@
 {
     "values": [
-        "#enhanced_mobs:zombie_place",
+        "#enhanced_mobs:zombie_placeable",
         "#leaves",
         "dirt",
         "grass_block"

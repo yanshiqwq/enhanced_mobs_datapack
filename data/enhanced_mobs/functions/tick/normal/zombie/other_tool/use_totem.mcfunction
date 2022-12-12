@@ -1,1 +1,2 @@
-data modify entity @s ActiveEffects append value {Ambient:0,Id:10,Amplifier:4,Duration:20,HiddenEffect:{Ambient:0,Id:10,Amplifier:3,Duration:900}}
+data modify entity @s ActiveEffects append value {Id:10,Amplifier:5,Duration:10,HiddenEffect:{Id:10,Amplifier:4,Duration:20,HiddenEffect:{Id:10,Amplifier:3,Duration:900}}}
+tag @s add enhanced_mobs.zombie.other_tool.totem_of_undying.used

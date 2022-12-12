@@ -1,0 +1,15 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "targeted_entity": {
+            "effects": {
+                "fire_resistance": {
+                    "duration": {
+                        "min": 1
+                    }
+                }
+            }
+        }
+    }
+}

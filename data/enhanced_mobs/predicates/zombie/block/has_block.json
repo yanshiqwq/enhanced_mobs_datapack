@@ -16,6 +16,27 @@
         },{
             "condition": "reference",
             "name": "enhanced_mobs:zombie/block/andesite"
+        },{
+            "condition": "reference",
+            "name": "enhanced_mobs:zombie/block/basalt"
+        },{
+            "condition": "reference",
+            "name": "enhanced_mobs:zombie/block/nether_bricks"
+        },{
+            "condition": "reference",
+            "name": "enhanced_mobs:zombie/block/netherrack"
+        },{
+            "condition": "reference",
+            "name": "enhanced_mobs:zombie/block/soul_sand"
+        },{
+            "condition": "reference",
+            "name": "enhanced_mobs:zombie/block/soul_soil"
+        },{
+            "condition": "reference",
+            "name": "enhanced_mobs:zombie/block/gravel"
+        },{
+            "condition": "reference",
+            "name": "enhanced_mobs:zombie/block/magma_block"
         }
     ]
 }

@@ -4,11 +4,8 @@
     "predicate": {
         "targeted_entity": {
             "location": {
-                "block": {
-                    "block": "lava",
-                    "state": {
-                        "level": 0
-                    }
+                "fluid": {
+                    "fluid": "lava"
                 }
             }
         }

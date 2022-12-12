@@ -1,0 +1,30 @@
+{
+    "condition": "alternative",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "targeted_entity": {
+                    "location": {
+                        "fluid": {
+                            "fluid": "water"
+                        }
+                    }
+                }
+            }
+        },{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "targeted_entity": {
+                    "location": {
+                        "fluid": {
+                            "fluid": "flowing_water"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

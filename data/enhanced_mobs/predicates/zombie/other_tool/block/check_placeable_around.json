@@ -1,0 +1,54 @@
+{
+    "condition": "alternative",
+    "terms": [
+        {
+            "condition": "location_check",
+            "offsetY": -1,
+            "predicate": {
+                "block": {
+                    "tag": "enhanced_mobs:zombie_placeable_on"
+                }
+            }
+        },{
+            "condition": "location_check",
+            "offsetY": 1,
+            "predicate": {
+                "block": {
+                    "tag": "enhanced_mobs:zombie_placeable_on"
+                }
+            }
+        },{
+            "condition": "location_check",
+            "offsetX": -1,
+            "predicate": {
+                "block": {
+                    "tag": "enhanced_mobs:zombie_placeable_on"
+                }
+            }
+        },{
+            "condition": "location_check",
+            "offsetX": 1,
+            "predicate": {
+                "block": {
+                    "tag": "enhanced_mobs:zombie_placeable_on"
+                }
+            }
+        },{
+            "condition": "location_check",
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "tag": "enhanced_mobs:zombie_placeable_on"
+                }
+            }
+        },{
+            "condition": "location_check",
+            "offsetZ": 1,
+            "predicate": {
+                "block": {
+                    "tag": "enhanced_mobs:zombie_placeable_on"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "offhand": {
+                "item": "minecraft:netherrack",
+                "count": {
+                    "min": 1
+                }
+            }
+        }
+    }
+}

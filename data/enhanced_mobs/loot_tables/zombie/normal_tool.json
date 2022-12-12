@@ -1,7 +1,24 @@
 {
-    "type": "entity",
+    "type": "generic",
     "pools": [
         {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "enhanced_mobs:zombie/zombified_piglin",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "type": "zombified_piglin"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },{
             "rolls": 1,
             "entries": [
                 {
@@ -72,6 +89,18 @@
                             }
                         }
                     ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "zombified_piglin"
+                        }
+                    }
                 }
             ]
         }

@@ -1,0 +1,15 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "targeted_entity": {
+            "location": {
+                "predicate": {
+                    "block": {
+                        "tag": "enhanced_mobs:zombie_placeable"
+                    }
+                }
+            }
+        }
+    }
+}

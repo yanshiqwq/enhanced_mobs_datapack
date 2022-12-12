@@ -1,6 +1,11 @@
 {
-  "pack": {
-    "pack_format": 6,
-    "description": "{\"text\":\"一个怪物增强数据包\"}"
-  }
+    "pack": {
+        "pack_format": 6,
+        "author_link": "https://space.bilibili.com/431304449",
+        "description": [
+            {"text":"enhanced mobs v1.0.1\n","color":"yellow"},
+            {"text":"一个怪物增强数据包\n","color":"aqua"},
+            {"text":"By: 延时qwq","color":"green"}
+        ]
+    }
 }

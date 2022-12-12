@@ -1,5 +1,12 @@
-execute if entity @s[predicate=enhanced_mobs:zombie/block/dirt] run setblock ~ ~ ~ dirt destroy
-execute if entity @s[predicate=enhanced_mobs:zombie/block/cobblestone] run setblock ~ ~ ~ cobblestone destroy
-execute if entity @s[predicate=enhanced_mobs:zombie/block/granite] run setblock ~ ~ ~ granite destroy
-execute if entity @s[predicate=enhanced_mobs:zombie/block/diorite] run setblock ~ ~ ~ diorite destroy
-execute if entity @s[predicate=enhanced_mobs:zombie/block/andesite] run setblock ~ ~ ~ andesite destroy
+execute if entity @s[predicate=enhanced_mobs:zombie/block/dirt] if predicate enhanced_mobs:zombie/other_tool/block/place_chance/normal run setblock ~ ~ ~ dirt destroy
+execute if entity @s[predicate=enhanced_mobs:zombie/block/cobblestone] if predicate enhanced_mobs:zombie/other_tool/block/place_chance/normal run setblock ~ ~ ~ cobblestone destroy
+execute if entity @s[predicate=enhanced_mobs:zombie/block/granite] if predicate enhanced_mobs:zombie/other_tool/block/place_chance/normal run setblock ~ ~ ~ granite destroy
+execute if entity @s[predicate=enhanced_mobs:zombie/block/diorite] if predicate enhanced_mobs:zombie/other_tool/block/place_chance/normal run setblock ~ ~ ~ diorite destroy
+execute if entity @s[predicate=enhanced_mobs:zombie/block/andesite] if predicate enhanced_mobs:zombie/other_tool/block/place_chance/normal run setblock ~ ~ ~ andesite destroy
+execute if entity @s[predicate=enhanced_mobs:zombie/block/netherrack] if predicate enhanced_mobs:zombie/other_tool/block/place_chance/normal run setblock ~ ~ ~ netherrack destroy
+execute if entity @s[predicate=enhanced_mobs:zombie/block/basalt] if predicate enhanced_mobs:zombie/other_tool/block/place_chance/normal run setblock ~ ~ ~ basalt destroy
+execute if entity @s[predicate=enhanced_mobs:zombie/block/soul_sand] if predicate enhanced_mobs:zombie/other_tool/block/place_chance/normal run setblock ~ ~ ~ soul_sand destroy
+execute if entity @s[predicate=enhanced_mobs:zombie/block/soul_soil] if predicate enhanced_mobs:zombie/other_tool/block/place_chance/normal run setblock ~ ~ ~ soul_soil destroy
+execute if entity @s[predicate=enhanced_mobs:zombie/block/nether_bricks] if predicate enhanced_mobs:zombie/other_tool/block/place_chance/normal run setblock ~ ~ ~ nether_bricks destroy
+execute if entity @s[predicate=enhanced_mobs:zombie/block/gravel] if predicate enhanced_mobs:zombie/other_tool/block/place_chance/normal run setblock ~ ~ ~ gravel destroy
+execute if entity @s[predicate=enhanced_mobs:zombie/block/magma_block] if predicate enhanced_mobs:zombie/other_tool/block/place_chance/normal run setblock ~ ~ ~ magma_block destroy

@@ -1,0 +1,96 @@
+{
+    "condition": "alternative",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "targeted_entity": {
+                    "location": {
+                        "offsetY": -1,
+                        "predicate": {
+                            "block": {
+                                "tag": "enhanced_mobs:zombie_placeable_on"
+                            }
+                        }
+                    }
+                }
+            }
+        },{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "targeted_entity": {
+                    "location": {
+                        "offsetY": 1,
+                        "predicate": {
+                            "block": {
+                                "tag": "enhanced_mobs:zombie_placeable_on"
+                            }
+                        }
+                    }
+                }
+            }
+        },{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "targeted_entity": {
+                    "location": {
+                        "offsetX": -1,
+                        "predicate": {
+                            "block": {
+                                "tag": "enhanced_mobs:zombie_placeable_on"
+                            }
+                        }
+                    }
+                }
+            }
+        },{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "targeted_entity": {
+                    "location": {
+                        "offsetX": 1,
+                        "predicate": {
+                            "block": {
+                                "tag": "enhanced_mobs:zombie_placeable_on"
+                            }
+                        }
+                    }
+                }
+            }
+        },{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "targeted_entity": {
+                    "location": {
+                        "offsetZ": -1,
+                        "predicate": {
+                            "block": {
+                                "tag": "enhanced_mobs:zombie_placeable_on"
+                            }
+                        }
+                    }
+                }
+            }
+        },{
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "targeted_entity": {
+                    "location": {
+                        "offsetZ": 1,
+                        "predicate": {
+                            "block": {
+                                "tag": "enhanced_mobs:zombie_placeable_on"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

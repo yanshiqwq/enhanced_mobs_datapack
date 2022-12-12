@@ -1,4 +1,5 @@
-execute if entity @s[type=#enhanced_mobs:zombie] run function enhanced_mobs:data/strength/zombie_strengthen
+execute if entity @s[type=#enhanced_mobs:zombie,type=!minecraft:zombified_piglin] run function enhanced_mobs:data/strength/zombie_strengthen
+execute if entity @s[type=minecraft:zombified_piglin] run function enhanced_mobs:data/strength/zombified_piglin_strengthen
 execute if entity @s[type=#enhanced_mobs:skeleton] run function enhanced_mobs:data/strength/skeleton_strengthen
 execute if entity @s[type=#enhanced_mobs:wither_skeleton] if predicate enhanced_mobs:spawn_chance/strength_wither_skeleton run tag @s add strength_1
 execute if entity @s[type=#enhanced_mobs:wither_skeleton,tag=!strength_1] run function enhanced_mobs:data/strength/wither_skeleton_strengthen
