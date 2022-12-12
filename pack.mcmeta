@@ -2,6 +2,7 @@
     "pack": {
         "pack_format": 6,
         "author_link": "https://space.bilibili.com/431304449",
+        "project_link": "https://github.com/yanshiqwq/enhanced_mobs/",
         "description": [
             {"text":"enhanced mobs v1.0.1\n","color":"yellow"},
             {"text":"一个增强原版怪物的数据包\n","color":"aqua"},
